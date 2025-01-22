@@ -25,7 +25,7 @@ export default function Portfolio() {
       skills: "NextJs, Tailwind Css, NodeJs, ExpressJs, MongoDb ",
     },
     {
-      link: "https://foodies-heaven.vercel.app/",
+      link: "https://foodiess-heaven-recipes.vercel.app/",
       heading: "Foodies' Heaven : Recipe Website",
       desc: "I developed a comprehensive full stack recipe website to demonstrate my skills in frontend, backend, and API testing. Users can create accounts, manage their profiles, and upload recipes, all seamlessly integrated with Next.js on the frontend and Node.js with Express.js on the backend. For efficient image handling, I utilized Cloudinary, and MongoDB serves as the database for storing user data. Implementing NextAuth for authentication, I learned to manage different user roles and created an admin dashboard for efficient data management. I created various APIs to handle users, recipes, and chefs data, ensuring a smooth and dynamic user experience. This project provided valuable real-world experience in building a robust, user-friendly platform.",
       img: "/recipe.png",
@@ -53,7 +53,7 @@ export default function Portfolio() {
           <div className=" hover:-translate-y-7 duration-500 my-8 w-full mx-auto rounded-3xl lg:px-10 px-5 lg:py-10 py-10 lg:pl-7 bg-black grid lg:grid-cols-1 grid-cols-1 gap-10   ">
             {projects.map((project) => (
               <ProjCard
-              key={project.heading}
+                key={project.heading}
                 link={project.link}
                 heading={project.heading}
                 description={project.desc}
